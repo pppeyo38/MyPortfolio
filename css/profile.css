@@ -1,4 +1,4 @@
-@import url('styles.css');
+@import url('rayout.css');
 
 *{
     margin: 0;
@@ -60,17 +60,4 @@ main{
 .self-introduction ul{
 	list-style: none;
 	margin: 3vh 0;
-}
-
-footer {
-	height: 15vh;
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-	background-color: #6667AB;
-}
-
-footer p{
-	color: white;
-	margin-bottom: 1%;
 }

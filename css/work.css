@@ -1,4 +1,4 @@
-@import url('styles.css');
+@import url('rayout.css');
 
 *{
     margin: 0;
@@ -11,7 +11,7 @@ main{
 	color: #252525;
 }
 
-.works-flash{
+.works-vanity, .works-flash, .works-rest{
 	padding: 3vw;
 }
 
@@ -46,17 +46,4 @@ main{
 .make-detail {
 	list-style: none;
 	margin-top: 8vh;
-}
-
-footer {
-	height: 15vh;
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-	background-color: #6667AB;
-}
-
-footer p{
-	color: white;
-	margin-bottom: 1%;
 }

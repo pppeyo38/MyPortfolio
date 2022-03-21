@@ -1,0 +1,100 @@
+/* ヘッダー部分 */
+header{
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	height: 10vh;
+	background-color: white;
+	box-shadow: 0px 10px 25px -5px rgb(0, 0, 0, 0.2);
+}
+
+header h1{
+	display: flex;
+	align-items: center;
+	margin-bottom: 0;
+	margin-left: 5%;
+	font-weight: bold;
+	font-size: 33px;
+	color: #6667AB;
+}
+
+.header-list{
+	display: flex;
+	list-style: none;
+	font-size: 20px;
+	margin-bottom: 0;
+	margin-right: 5%;
+}
+
+.header-list li {
+	margin: auto 2vw;
+	color: #252525;
+	cursor: pointer;
+}
+
+.header-list a{
+	color: #252525;
+}
+
+.header-list a:hover{
+	color: #6667AB;
+}
+
+.works-menu a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+label {
+    display: block;
+    line-height: 1;
+	margin-bottom: 0;
+    cursor :pointer;
+}
+
+input {
+    display: none;
+}
+
+.works-menu ul {
+    margin: 0;
+    padding: 0;
+	position: absolute;
+    background :#f4f4f4;
+	border-radius: 5px;
+    list-style: none;
+}
+
+.works-menu li {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#menu_bar:checked ~ #links li{
+    height: 54px;
+    opacity: 1;
+}
+
+main{
+	color: #252525;
+}
+
+footer {
+	height: 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-color: #6667AB;
+}
+
+footer p{
+	color: white;
+	margin-bottom: 1%;
+}
