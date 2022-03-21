@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: Noto Sans JP;
+}
+
+/* ヘッダー部分 */
+header{
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3vw;
+	height: 15vh;
+}
+
+header h1{
+	font-weight: bold;
+	font-size: 33px;
+	color: #6667AB;
+}
+
+.header-list{
+	display: flex;
+	list-style: none;
+	font-size: 20px
+}
+
+.header-list li {
+	margin: 0 2vw;
+	color: #252525;
+	cursor: pointer;
+}
+
+.header-list a{
+	color: #252525;
+}
+
+.header-list a:hover{
+	color: #6667AB;
+}
+
+#works-has-list {
+	display: none;
+	position: absolute;
+	font-size: 15px;
+	font-weight: normal;
+	list-style: none;
+}
+
+#works-has-list li a{
+	color: #6667AB;
+}
+
+#works-has-list.visible{
+	display: block;
+	margin-top: 1vh;
+}
+
+main{
+	color: #252525;
+}
+
+.profile{
+	padding: 3vw;
+}
+
+.profile-title{
+	display: flex;
+}
+
+.profile-title h3{
+	font-weight: bold;
+}
+
+.profile-title span{
+	display: inline-block;
+	width: 5px;
+	height: 28px;
+	background-color: #6667AB;
+	margin-right: 1vw;
+}
+
+.self-introduction{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.self-introduction img{
+	margin-top: 5vh;
+	width: 30%;
+}
+
+.self-introduction h4{
+	margin-top: 5vh;
+	font-weight: bold;
+	margin-bottom: 5vh;
+}
+
+.self-introduction h4 span{
+	color: #6667AB;
+}
+
+.self-introduction p{
+	text-align: center;
+	font-size: 20px;
+}
+
+.self-introduction ul{
+	list-style: none;
+	margin: 3vh 0;
+}
+
+footer {
+	height: 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-color: #6667AB;
+}
+
+footer p{
+	color: white;
+	margin-bottom: 1%;
+}
